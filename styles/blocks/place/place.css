@@ -1,0 +1,17 @@
+@import url(./__title/place__title.css);
+@import url(./__web-site/place__web-site.css);
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__top-content/place__top-content.css);
+@import url(./__bottom-content/place__bottom-content.css);
+
+.place{
+    margin-top: 72px;
+}
+
+
+@media all and (max-width: 768px){
+    .place{
+        margin-top: 102px;
+    }
+}

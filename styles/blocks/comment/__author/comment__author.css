@@ -1,0 +1,11 @@
+.comment__author{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media all and (max-width: 768px){
+    .comment__author{
+        order: 2;
+        margin: 16px 0px 24px;
+    }
+}

@@ -1,0 +1,6 @@
+.intro__content-row{
+    display: flex;
+    justify-content: space-between;
+    max-width: 984px;
+    grid-area: intro__content-row;
+}

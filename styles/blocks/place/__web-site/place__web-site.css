@@ -1,0 +1,16 @@
+.place__web-site{
+    max-width: 484px;
+    width: 100%;
+}
+
+@media all and (max-width: 1024px){
+    .place__web-site{
+        width: calc(100% - 41vw);
+    }
+}
+
+@media all and (max-width: 425px){
+    .place__web-site{
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.comments__container{
+    max-width: 1184px;
+    max-height: 303px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media all and (max-width: 768px){
+    .comments__container{
+        flex-direction: column;
+        min-height: 806px;
+        max-height: 904px;
+        justify-items: center;
+    }
+}

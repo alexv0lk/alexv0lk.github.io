@@ -1,0 +1,12 @@
+.comment__quote{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 42px 0px 24px;
+}
+
+@media all and (max-width: 768px){
+    .comment__quote{
+        order: 3;
+        padding: 0;
+    }
+}

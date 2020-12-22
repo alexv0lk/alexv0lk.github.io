@@ -1,0 +1,12 @@
+.video__container{
+    max-width: 1184px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media all and (max-width: 767px){
+    .video__container{
+        flex-direction: column;
+    }
+}

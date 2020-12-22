@@ -1,0 +1,13 @@
+.video__text{    
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    overflow: hidden;
+}
+
+@media all and (max-width: 768px){
+    .video__text{
+        left: 24px;
+        bottom: 24px;
+    }
+}

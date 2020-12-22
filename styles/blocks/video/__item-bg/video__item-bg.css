@@ -1,0 +1,28 @@
+.video__item-bg{
+    width: 100%;
+    padding-bottom: 55%;
+    display: block;
+    background-image: url(../../../../images/video__image/kamchatka.jpg);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.video__item-bg-obs{
+    background-image: url(../../../../images/video__image/observatory.jpg);
+}
+
+.video__item-bg:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color .3s linear;
+}
+
+@media all and (max-width: 1024px){
+    .video__item-bg{
+        padding-bottom: 64%;
+    }
+}

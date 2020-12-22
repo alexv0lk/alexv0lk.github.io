@@ -1,0 +1,12 @@
+.place__bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+@media all and (max-width: 425px){
+    .place__bottom-content{
+        display: block;
+    }
+}

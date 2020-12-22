@@ -1,0 +1,25 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover{
+    display: block;
+    max-width: 1184px;
+    padding-bottom: 50%;
+    text-decoration: none;
+    position: relative;
+}
+
+@media all and (max-width: 767px){
+    .cover{
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 65%;
+    }
+}
+
+@media all and (max-width: 420px){
+    .cover{
+        top: 12.5%;  
+        padding-bottom: 72.5%;
+    }
+}

@@ -1,0 +1,39 @@
+@import url(./__header/page__header.css);
+@import url(./__foto-grid/page__foto-grid.css);
+@import url(./__cover/page__cover.css);
+@import url(./__footer/page__footer.css);
+@import url(./__lead/page__lead.css);
+
+
+.page{
+    max-width: 1184px;
+    width: 95.483vw;
+    margin: 0 auto;
+    background: #2A2C2F;
+    font-family: 'Inter', 'Arial', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+@media all and (max-width: 1024px){
+    .page{
+        width: 90.625%;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    .page{
+        width: 93.75%;
+    }
+}
+
+@media all and (max-width: 425px){
+    .page{
+        width: 90%;
+    }
+}

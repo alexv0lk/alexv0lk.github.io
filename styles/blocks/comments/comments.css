@@ -1,0 +1,11 @@
+@import url(./__container/comments__container.css);
+
+.comments{
+    max-width: 1184px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}

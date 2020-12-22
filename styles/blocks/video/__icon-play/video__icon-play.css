@@ -1,0 +1,21 @@
+.video__icon-play{
+    max-width: 41px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+@media all and (max-width: 1024px){
+    .video__icon-play{
+        left: 6.5%;
+        top: 10%;
+    }
+}
+
+@media all and (max-width: 768px){
+    .video__icon-play{
+        left: 24px;
+        top: 24px;
+    }
+}
+

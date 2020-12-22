@@ -1,0 +1,31 @@
+@import url(./__item/foto-grid__item.css);
+
+.foto-grid{
+    max-width: 1184px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, calc((100% - 48px) / 4));
+    grid-gap: 16px;
+}
+
+@media all and (max-width: 1024px){
+    .foto-grid{
+        max-width: 90.625vw;
+        grid-template-columns: repeat(auto-fill, calc((100% - 28px) / 3));
+        grid-gap: 14px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .foto-grid{
+        max-width: 93.75vw;
+        grid-template-columns: repeat(auto-fill, calc((100% - 16px) / 2));
+        grid-gap: 16px;
+    }
+}
+
+@media all and (max-width: 425px){
+    .foto-grid{
+        display: block;
+    }
+}

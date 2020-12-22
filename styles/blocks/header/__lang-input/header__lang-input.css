@@ -1,0 +1,11 @@
+.header__lang-input{
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    appearance: none;
+    position: absolute;
+}
+
+.header__lang-input:checked +.header__lang{
+    position: relative;
+    text-decoration-line: underline;
+}

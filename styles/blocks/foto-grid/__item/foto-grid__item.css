@@ -1,0 +1,9 @@
+.foto-grid__item{
+    width: 100%;
+}
+
+@media all and (max-width: 425px){
+    .foto-grid__item{
+        margin-bottom: 4%;
+    }    
+}

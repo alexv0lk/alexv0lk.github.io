@@ -1,0 +1,23 @@
+.lead__caption{
+    max-width: 636px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    grid-area: lead__caption;
+    margin: 13px 0px 0px;   
+    
+}
+
+@media all and (max-width: 768px){
+    .lead__caption{
+        padding-left: 3%;
+    }
+}
+/*
+Нужно исправить:
+Удалите фиксированную высоту
+*/
